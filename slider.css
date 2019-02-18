@@ -1,0 +1,49 @@
+.chapter-1,
+.chapter-2,
+.chapter-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 230px;
+  background: rgb(102, 109, 72);
+}
+.chapter-1_item-1,
+.chapter-2_item-1,
+.chapter-3_item-1 {
+  border: 20px solid transparent;
+  border-right: 20px solid #2a2a2a;
+}
+.chapter-1_item-2,
+.chapter-2_item-2,
+.chapter-3_item-2 {
+  padding: 0 20px 20px 20px;
+}
+p {
+  font-family: Montserrat;
+  color: #2a2a2a;
+  font-size: 14px;
+  font-weight: 400;
+
+  text-align: left;
+}
+h3 {
+  font-family: Montserrat;
+}
+
+.chapter-1_item-3,
+.chapter-2_item-3,
+.chapter-3_item-3 {
+  border: 20px solid transparent;
+  border-left: 20px solid #2a2a2a;
+}
+button {
+  background: rgb(102, 109, 72);
+  border: rgb(102, 109, 72);
+}
+
+.chapter-2,
+.chapter-3 {
+  display: none;
+  background: yellow;
+}
